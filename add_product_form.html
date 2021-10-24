@@ -1,0 +1,29 @@
+{% block content %}
+<table>
+    <form method="post">
+        <tr>
+            Product Name:
+            <input type="text" name="pname" id="pname" required>
+        </tr>
+        <tr>
+            Selling Price:
+            <input type="number" name="sp" id="sp" required>
+        </tr>
+        <tr>
+            Purchase Price:
+            <input type="number" name="price" id="price" required>
+        </tr>
+        <tr>
+            Units Purchased:
+            <input type="number" name="purchase" id="purchase" required>
+        </tr>
+        <tr>
+            Units Sold:
+            <input type="number" name="sold" id="sold" required>
+        </tr>
+        <tr>
+            <input type="submit" value="Add">
+        </tr>
+      </form>
+</table>
+{% endblock %}
